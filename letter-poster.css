@@ -1,0 +1,1408 @@
+/*BUKVY*/
+	.БУКВИ{
+		position: fixed;
+		left: 38.81vw;
+		top: 40vw;
+		font-size: 0.035vw;
+
+	}
+
+		.horizontal-stem-Б2{
+		 	background: red;
+			width: 225em;
+			height: 50em;
+			position: absolute;
+			left: 0em;
+			top: 50em;
+		}
+
+		 .vertical-stem-Б2{
+			background: red;
+			width: 50em;
+			height: 300em;
+			position: absolute;
+			left: 45em;
+			top: 50em;
+		}
+
+		 .half-circle-Б2{
+		    width: 200em;
+		    height: 100em; 
+		    position: absolute;
+		    left: 20em;
+		    top: 150em;
+		    border-top-right-radius: 250em;  
+		    border-bottom-right-radius: 250em; 
+		    border: 50em solid red;
+		    border-left: 0em;
+		}
+
+		.horizontal-stem-bottom-Б2{
+		 	background: red;
+			width: 25em;
+			height: 50em;
+			position: absolute;
+			left: 0em;
+			top: 300em;
+		}
+
+		.vertical-stem-У2{
+			background: red;
+			width: 50em;
+			height: 225em;
+			position: absolute;
+			left: 370em;
+			top: 125em;
+		}
+
+		.half-circle-У2{
+			width: 150em;
+		    height: 150em; 
+		    position: absolute;
+		    left: 270em;
+		    top: 50em;
+		    border-bottom-left-radius: 250em;  
+		    border-bottom-right-radius: 250em; 
+		    border: 50em solid red;
+		    border-top: 0;
+		}
+
+		.vertical-stem-К2{
+			background: red;
+			width: 53em;
+			height: 300em;
+			position: absolute;
+			left: 600em;
+			top: 50em;
+		}
+
+		.diagonal-stem-bottom-К2{
+			background: red;
+			width: 60em;
+			height: 160em;
+			position: absolute;
+			left: 760em;
+			top: 190em;
+			transform: skew(35deg);
+		}
+
+		.diagonal-stem-top-К2{
+			width: 100em;
+			height: 120em; 
+			position: absolute;
+			left: 675em;
+			top: 50em;
+			border-bottom-right-radius: 150em; 
+			border: 50em solid red;
+			border-top: 0;
+			border-left: 0;
+		}
+
+		.horizontal-stem-К2{
+			background: red;
+			width: 120em;
+			height: 50em;
+			position: absolute;
+			left: 610em;
+			top: 170em;
+		}
+
+		.horizontal-stem-top-К2{
+			background: red;
+			width: 51em;
+			height: 50em;
+			position: absolute;
+			left: 550em;
+			top: 50em;
+		}
+
+		.horizontal-stem-bottom-К2{
+			background: red;
+			width: 150em;
+			height: 50em;
+			position: absolute;
+			left: 550em;
+			top: 300em;
+		}
+
+		.vertical-stem-В2{
+			background: red;
+			width: 50em;
+			height: 300em;
+			position: absolute;
+			left: 940em;
+			top: 50em;
+		}
+
+		.half-circle-top-В2{
+		    width: 170em;
+		    height: 70em; 
+		    position: absolute;
+		    left: 925em;
+		    top: 50em;
+		    border-top-right-radius: 250em;  
+		    border-bottom-right-radius: 250em; 
+		    border: 50em solid red;
+		    border-left: 0;
+		}
+
+		.half-circle-bottom-В2{
+		    width: 200em;
+		    height: 80em; 
+		    position: absolute;
+		    left: 925em;
+		    top: 170em;
+		    border-top-right-radius: 250em;  
+		    border-bottom-right-radius: 250em; 
+		    border: 50em solid red;
+		    border-left: 0;
+		}
+
+		.horizontal-stem-bottom-В2{
+		 	background: red;
+			width: 25em;
+			height: 50em;
+			position: absolute;
+			left: 910em;
+			top: 300em;
+		}
+
+		.horizontal-stem-top-В2{
+		 	background: red;
+			width: 50em;
+			height: 50em;
+			position: absolute;
+			left: 910em;
+			top: 50em;
+		}
+
+		.vertical-stem-left-И2{
+			background: red;
+			width: 53em;
+			height: 300em;
+			position: absolute;
+			left: 1250em;
+			top: 50em;
+		}
+
+		.vertical-stem-right-И2{
+			background: red;
+			width: 53em;
+			height: 300em;
+			position: absolute;
+			left: 1400em;
+			top: 50em;
+		}
+
+		.vertical-stem-diagonal-И2{
+			background: red;
+			width: 53em;
+			height: 300em;
+			transform: skew(-25deg);
+			position: absolute;
+			left: 1325em;
+			top: 50em;
+		}
+
+		.horizontal-stem-top-И2{
+			background: red;
+			width: 75em;
+			height: 50em;
+			position: absolute;
+			left: 1200em;
+			top: 50em;
+		}
+
+		.horizontal-stem-bottom-И2{
+			background: red;
+			width: 75em;
+			height: 50em;
+			position: absolute;
+			left: 1420em;
+			top: 300em;
+		}
+
+
+
+	.БУКВИ:hover{
+		opacity: 0.7;
+	}
+
+
+
+.letter {
+    width:400px; 
+    height:400px; 
+    position:relative; 
+    margin: 30px;
+    top: 500px; 
+}
+
+.point {
+  width: 0;
+  height: 0;
+  border-left: 5vw solid transparent;
+  border-right: 5vw solid transparent;
+  border-bottom: 9vw solid red;
+  position: absolute;
+  top: 10vw;
+  left:39vw;
+
+}
+
+/* LETTERS */
+	/* LETTER A */
+
+		.horizontal-stem-middle-A{
+			background: black;
+			width: 175px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 175px;
+		}
+
+		.horizontal-stem-top-A{
+			background: black;
+			width: 100px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+		.vertical-stem-left-A{
+			background: black;
+			width: 53px;
+			height: 300px;
+			transform: skew(-15deg);
+			position: absolute;
+			left: 35px;
+			top: 50px;
+		}
+
+		.vertical-stem-right-A{
+			background: black;
+			width: 53px;
+			height: 300px;
+			transform: skew(15deg); /* css-tricks.com/the-shapes-of-css /*/
+			position: absolute;
+			left: 140px;
+			top: 50px;
+		}
+
+	/* LETTER Б */
+
+		.horizontal-stem-Б{
+		 	background: black;
+			width: 225px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+		 .vertical-stem-Б{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left: 45px;
+			top: 50px;
+		}
+
+		 .half-circle-Б{
+		    width: 200px;
+		    height: 100px; 
+		    position: absolute;
+		    left: 20px;
+		    top: 150px;
+		    border-top-right-radius: 250px;  
+		    border-bottom-right-radius: 250px; 
+		    border: 50px solid black;
+		    border-left: 0;
+		    /* stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only */
+		}
+
+		.horizontal-stem-bottom-Б{
+		 	background: black;
+			width: 25px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 300px;
+		}
+
+	/* LETTER В and Р and Ь */
+
+		.vertical-stem-B,
+		.vertical-stem-Р,
+		.vertical-stem-Ь{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left: 40px;
+			top: 50px;
+		}
+
+		.half-circle-top-B,
+		.half-circle-Р{
+		    width: 170px;
+		    height: 70px; 
+		    position: absolute;
+		    left: 15px;
+		    top: 50px;
+		    border-top-right-radius: 250px;  
+		    border-bottom-right-radius: 250px; 
+		    border: 50px solid black;
+		    border-left: 0;
+		}
+
+		.half-circle-bottom-B,
+		.half-circle-Ь{
+		    width: 200px;
+		    height: 80px; 
+		    position: absolute;
+		    left: 15px;
+		    top: 170px;
+		    border-top-right-radius: 250px;  
+		    border-bottom-right-radius: 250px; 
+		    border: 50px solid black;
+		    border-left: 0;
+		}
+
+		.horizontal-stem-bottom-B,
+		.horizontal-stem-bottom-Ь{
+		 	background: black;
+			width: 25px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 300px;
+		}
+
+		.horizontal-stem-top-B,
+		.horizontal-stem-top-Р,
+		.horizontal-stem-top-Ь{
+		 	background: black;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+	/* LETTER Г and Ґ*/
+
+		.vertical-stem-Г,
+		.vertical-stem-Ґ{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+		.horizontal-stem-Г,
+		.horizontal-stem-Ґ{
+			background: black;
+			width: 200px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+		.vertical-stem-tip-Ґ{
+			background: black;
+			width: 50px;
+			height: 110px;
+			position: absolute;
+			left: 150px;
+			top: 20px;
+		}	
+
+	/* LETTER Д*/
+		.vertical-stem-left-Д{
+			width: 150px;
+			height: 250px; 
+			position: absolute;
+			left: 0px;
+			top: 50px;
+			border-bottom-right-radius: 250px; 
+			border: 50px solid black;
+			border-left: 0;
+			border-top: 0;
+		}
+
+		.vertical-stem-right-Д{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left: 260px;
+			top: 50px;
+		}
+
+		.horizontal-stem-top-Д{
+			background: black;
+			width: 250px;
+			height: 50px;
+			position: absolute;
+			left: 100px;
+			top: 50px;
+		}
+		
+		.horizontal-stem-bottom-Д{
+			background: black;
+			width: 360px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 300px;
+		}
+		
+		.vertical-left-tip-Д{
+			background: black;
+			width: 50px;
+			height: 60px;
+			position: absolute;
+			left: 0px;
+			top: 340px;
+		}
+		
+		.vertical-right-tip-Д{
+			background: black;
+			width: 50px;
+			height: 60px;
+			position: absolute;
+			left: 310px;
+			top: 340px;
+		}
+
+	/* LETTER E and П and Н*/
+
+		.vertical-stem-E,
+		.vertical-stem-left-П,
+		.vertical-stem-left-Н{
+		 	background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left: 50px;
+			top: 50px;
+		}
+
+		 .first-horizontal-stem-E,
+		 .horizontal-stem-П{
+			background: black;
+			width: 225px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+		.second-horizontal-stem-E{
+			background: black;
+			width: 150px;
+			height: 50px;
+			position: absolute;
+			left: 20px;
+			top: 150px;
+		}
+
+		.third-horizontal-stem-E{
+			background: black;
+			width: 225px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 300px;
+		}
+
+		.vertical-stem-right-П,
+		.vertical-stem-right-Н{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left: 200px;
+			top: 50px;
+		}
+
+		.horizontal-stem-Н{
+			background: black;
+			width: 200px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 150px;
+		}
+
+	/*LETTER Є and C*/
+		.horizontal-stem-Є{
+			background: black;
+			width: 170px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 170px;
+		}
+
+		.half-circle-Є,
+		.half-circle-C{
+	 		width: 180px;
+		    height: 200px; 
+		    position: absolute;
+		    left: 30px;
+		    top: 50px;
+		    border-top-left-radius: 250px;  
+		    border-bottom-left-radius: 250px; 
+		    border: 50px solid black;
+		    border-right: 0;
+		}
+
+		.vertical-stem-Є,
+		.vertical-stem-С{
+			background: black;
+			width: 50px;
+			height: 100px;
+			position: absolute;
+			left: 210px;
+			top: 50px;
+		}
+
+		.vertical-stem-bottom-Є,
+		.vertical-stem-bottom-С{
+			background: black;
+			width: 50px;
+			height: 90px;
+			position: absolute;
+			left: 210px;
+			top: 250px;
+		}
+
+	/* LETTER Ж and Х */
+
+		.vertical-stem-Ж{
+			background: black;
+			width: 50px;
+			height: 200px;
+			position: absolute;
+			left: 175px;
+			top: 100px;
+		}
+
+		.horizontal-stem-Ж{
+			background: black;
+			width: 300px;
+			height: 50px;
+			position: absolute;
+			left: 50px;
+			top: 150px;
+		}
+
+		.half-circle-left-Ж{
+			width: 100px;
+			height: 200px; 
+			position: absolute;
+			left: 0px;
+			top: 50px;
+			border-top-right-radius: 0px;  
+			border-bottom-right-radius: 250px; 
+			border: 50px solid black;
+			border-left: 0;
+		}
+
+		.half-circle-right-Ж{
+			width: 100px;
+			height: 200px; 
+			position: absolute;
+			left: 250px;
+			top: 50px;
+			border-top-left-radius: 0px;  
+			border-bottom-left-radius: 250px; 
+			border: 50px solid black;
+			border-right: 0;
+		}
+
+		.half-circle-right-Х{
+			width: 125px;
+			height: 200px; 
+			position: absolute;
+			left: 125px;
+			top: 50px;
+			border-top-left-radius: 250px;  
+			border-bottom-left-radius: 250px; 
+			border: 50px solid black;
+			border-right: 0;
+		}
+
+		.half-circle-left-Х{
+			width: 125px;
+			height: 200px; 
+			position: absolute;
+			left: 0px;
+			top: 50px;
+			border-top-right-radius: 250px;  
+			border-bottom-right-radius: 250px; 
+			border: 50px solid black;
+			border-left: 0;
+		}
+
+		.vertical-stem-left-Х{
+			background: black;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 100px;
+		}
+
+		.vertical-stem-right-Х{
+			background: black;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 250px;
+			top: 100px;
+		}
+
+	/*LETTER З*/
+
+		.half-circle-top-З{
+			width: 85px;
+		    height: 70px; 
+		    position: absolute;
+		    left: 50px;
+		    top: 50px;
+		    border-top-right-radius: 250px;  
+		    border-bottom-right-radius: 250px; 
+		    border: 50px solid black;
+		    border-left: 0;
+		}
+
+		.half-circle-bottom-З{
+		    width: 100px;
+		    height: 80px; 
+		    position: absolute;
+		    left: 50px;
+		    top: 170px;
+		    border-top-right-radius: 250px;  
+		    border-bottom-right-radius: 250px; 
+		    border: 50px solid black;
+		    border-left: 0;
+		}
+
+		.vertical-stem-top-З{
+			background: black;
+			width: 50px;
+			height: 75px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+		.vertical-stem-bottom-З{
+			background: black;
+			width: 50px;
+			height: 75px;
+			position: absolute;
+			left: 0px;
+			top: 275px;
+		}
+
+	/*LETTER И and Й*/
+		.vertical-stem-left-И,
+		.vertical-stem-left-Й{
+			background: black;
+			width: 53px;
+			height: 300px;
+			position: absolute;
+			left: 50px;
+			top: 50px;
+		}
+
+		.vertical-stem-right-И,
+		.vertical-stem-right-Й{
+			background: black;
+			width: 53px;
+			height: 300px;
+			position: absolute;
+			left: 200px;
+			top: 50px;
+		}
+
+		.vertical-stem-diagonal-И,
+		.vertical-stem-diagonal-Й{
+				background: black;
+				width: 53px;
+				height: 300px;
+				transform: skew(-25deg);
+				position: absolute;
+				left: 125px;
+				top: 50px;
+			}
+		
+		.horizontal-stem-top-И,
+		.horizontal-stem-top-Й{
+			background: black;
+			width: 75px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+		.horizontal-stem-bottom-И,
+		.horizontal-stem-bottom-Й{
+			background: black;
+			width: 75px;
+			height: 50px;
+			position: absolute;
+			left: 220px;
+			top: 300px;
+		}
+
+		.horizontal-stem-tip-Й{
+			background: black;
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			left: 130px;
+			top: 0px;
+			border-radius: 50px;
+		}
+
+	/*LETTER І and Ї*/
+
+		.vertical-stem-І,
+		.vertical-stem-Ї{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left: 50px;
+			top: 50px;
+		}
+
+		.horizontal-stem-top-І,
+		.horizontal-stem-top-Ї{
+			background: black;
+			width: 150px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+		.horizontal-stem-bottom-І,
+		.horizontal-stem-bottom-Ї{
+			background: black;
+			width: 150px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 300px;
+		}
+
+		.circle-І{
+			background: black;
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			left: 55px;
+			top: 0px;
+			border-radius: 50px;
+		}
+
+		.circle-left-Ї{
+				background: black;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				left: 30px;
+				top: 0px;
+				border-radius: 25px;
+		}
+		
+		.circle-right-Ї{
+				background: black;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				left: 80px;
+				top: 0px;
+				border-radius: 25px;
+		}
+		
+	/*LETTER К*/
+
+		.vertical-stem-К{
+				background: black;
+				width: 53px;
+				height: 300px;
+				position: absolute;
+				left: 50px;
+				top: 50px;
+			}
+
+		.diagonal-stem-bottom-К{
+				background: black;
+				width: 60px;
+				height: 160px;
+				position: absolute;
+				left: 210px;
+				top: 190px;
+				transform: skew(35deg);
+			}
+
+		.diagonal-stem-top-К{
+				width: 100px;
+				height: 120px; 
+				position: absolute;
+				left: 125px;
+				top: 50px;
+				border-bottom-right-radius: 150px; 
+				border: 50px solid black;
+				border-top: 0;
+				border-left: 0;
+			}
+
+		.horizontal-stem-К{
+				background: black;
+				width: 120px;
+				height: 50px;
+				position: absolute;
+				left: 60px;
+				top: 170px;
+			}
+
+		.horizontal-stem-top-К{
+				background: black;
+				width: 50px;
+				height: 50px;
+				position: absolute;
+				left: 0px;
+				top: 50px;
+			}
+
+		.horizontal-stem-bottom-К{
+				background: black;
+				width: 150px;
+				height: 50px;
+				position: absolute;
+				left: 0px;
+				top: 300px;
+			}
+
+	/*LETTER Л*/
+
+		.diagonal-stem-left-Л{
+				background: black;
+				width: 53px;
+				height: 300px;
+				transform: skew(-15deg);
+				position: absolute;
+				left: 35px;
+				top: 50px;
+			}
+
+		.diagonal-stem-right-Л{
+				background: black;
+				width: 53px;
+				height: 300px;
+				transform: skew(15deg);
+				position: absolute;
+				left: 140px;
+				top: 50px;
+			}
+
+		.horizontal-stem-Л{
+				background: black;
+				width: 190px;
+				height: 50px;
+				position: absolute;
+				left: 20px;
+				top: 50px;
+			}
+
+	/*LETTER М*/
+
+		.vertical-stem-left-М{
+			background: black;
+			width: 53px;
+			height: 300px;
+			position: absolute;
+			left: 50px;
+			top: 50px;
+		}
+
+		.vertical-stem-right-М{
+			background: black;
+			width: 53px;
+			height: 300px;
+			position: absolute;
+			left: 295px;
+			top: 50px;
+		}
+
+
+		.diagonal-stem-left-М{
+			background: black;
+			width: 53px;
+			height: 200px;
+			transform: skew(25deg);
+			position: absolute;
+			left: 125px;
+			top: 50px;
+		}
+
+		.diagonal-stem-right-М{
+			background: black;
+			width: 53px;
+			height: 200px;
+			transform: skew(-25deg);
+			position: absolute;
+			left: 220px;
+			top: 50px;
+		}
+
+		.horizontal-stem-right-М{
+			background: black;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 345px;
+			top: 300px;
+		}
+
+		.horizontal-stem-left-М{
+			background: black;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 300px;
+		}
+
+		.horizontal-stem-top-right-М{
+			background: black;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 345px;
+			top: 50px;
+		}
+
+		.horizontal-stem-top-left-М{
+			background: black;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+	/*LETTER О*/
+
+		.circle-О{
+		 	width: 200px;
+		    height: 220px; 
+		    position: absolute;
+		    left: 0px;
+		    top: 40px;
+		    border-radius: 250px;  
+		    border: 50px solid black;
+		}	
+
+	/*LETTER Т*/
+
+		.vertical-stem-Т{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left: 125px;
+			top: 50px;
+		}
+
+		.horizontal-stem-Т{
+			background: black;
+			width: 200px;
+			height: 50px;
+			position: absolute;
+			left: 50px;
+			top: 50px;
+		}
+
+		.vertical-stem-top-left-Т{
+			background: black;
+			width: 50px;
+			height: 100px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+		.vertical-stem-top-right-Т{
+			background: black;
+			width: 50px;
+			height: 100px;
+			position: absolute;
+			left: 250px;
+			top: 50px;
+		}
+
+	/*LETTER У*/
+
+		.vertical-stem-У{
+			background: black;
+			width: 50px;
+			height: 225px;
+			position: absolute;
+			left: 100px;
+			top: 125px;
+		}
+
+		.half-circle-У{
+			width: 150px;
+		    height: 150px; 
+		    position: absolute;
+		    left: 0px;
+		    top: 50px;
+		    border-bottom-left-radius: 250px;  
+		    border-bottom-right-radius: 250px; 
+		    border: 50px solid black;
+		    border-top: 0;
+		}
+
+	/*LETTER Ф*/
+
+		.circle-Ф{
+		 	width: 200px;
+		    height: 100px; 
+		    position: absolute;
+		    left: 0px;
+		    top: 50px;
+		    border-radius: 250px;  
+		    border: 50px solid black;
+		}
+
+		.vertical-stem-Ф{
+			background: black;
+			width: 53px;
+			height: 350px;
+			position: absolute;
+			left: 125px;
+			top: 0px;
+		}
+
+		.horizontal-stem-Ф{
+			background: black;
+			width: 151px;
+			height: 50px;
+			position: absolute;
+			left: 75px;
+			top: 300px;
+		}
+
+	/*LETTER Ц*/	
+		.horizontal-stem-Ц{
+			background: black;
+			width: 175px;
+			height: 50px;
+			position: absolute;
+			left:50px;
+			top:300px;
+		}
+		
+		.vertical-stem-left-Ц{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left:0px;
+			top: 50px;
+		}
+
+		.vertical-stem-right-Ц{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left:175px;
+			top: 50px;
+		}
+
+		.half-circle-bottom-Ц{
+			width:100px;
+			height: 50px; 
+			position: absolute;
+			left: 175px;
+			top: 300px;
+			border-top-right-radius: 100px;  
+			border: 50px solid black;
+			border-left: 0;
+			border-bottom: 0;
+		}
+
+	/*LETTER Ч*/	
+
+		.vertical-stem-Ч{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left:175px;
+			top:50px;
+		}
+
+		.half-circle-Ч{
+		    width: 200px;
+		    height: 150px; 
+		    position: absolute;
+		    left: 15px;
+		    top: 50px; 
+		    border-bottom-left-radius: 150px; 
+		    border: 50px solid black;
+		    border-right: 0;
+		    border-top: 0;
+		}
+
+	/*LETTER Ш and Щ*/
+		.vertical-stem-left-Ш,
+		.vertical-stem-left-Щ{
+			background: black;
+			width: 50px;
+			height: 250px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+		}
+
+		.vertical-stem-middle-Ш,
+		.vertical-stem-middle-Щ{
+			background: black;
+			width: 50px;
+			height: 150px;
+			position: absolute;
+			left: 125px;
+			top: 150px;
+		}
+
+		.vertical-stem-right-Ш,
+		.vertical-stem-right-Щ{
+			background: black;
+			width: 50px;
+			height: 250px;
+			position: absolute;
+			left: 250px;
+			top: 50px;
+		}
+
+		.horizontal-stem-Ш{
+			background: black;
+			width: 300px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 300px;
+		}
+
+		.horizontal-stem-Щ{
+			background: black;
+			width: 300px;
+			height: 50px;
+			position: absolute;
+			left: 0px;
+			top: 300px;
+		}
+
+
+		.horizontal-stem-small-Ш,
+		.horizontal-stem-small-Щ{
+			background: black;
+			width: 110px;
+			height: 50px;
+			position: absolute;
+			left: 95px;
+			top: 150px;
+		}
+
+		.horizontal-stem-top-left-Ш,
+		.horizontal-stem-top-left-Щ{
+			background: black;
+			width: 25px;
+			height: 50px;
+			position: absolute;
+			left: 50px;
+			top: 50px;
+		}
+
+		.horizontal-stem-top-right-Ш,
+		.horizontal-stem-top-right-Щ{
+			background: black;
+			width: 25px;
+			height: 50px;
+			position: absolute;
+			left: 300px;
+			top: 50px;
+		}
+
+		.half-circle-bottom-Щ{
+			width:100px;
+			height: 50px; 
+			position: absolute;
+			left: 250px;
+			top: 300px;
+			border-top-right-radius: 100px;  
+			border: 50px solid black;
+			border-left: 0;
+			border-bottom: 0;
+		}
+
+	/*LETTER Ю*/	
+		.horizontal-stem-Ю{
+			background: black;
+			width: 200px;
+			height: 50px;
+			position: absolute;
+			left:50px;
+			top: 175px;
+		}
+
+		.vertical-stem-Ю{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left:50px;
+			top: 50px;
+		}
+
+		.circle-Ю{
+			width: 150px;
+		    height: 220px; 
+		    position: absolute;
+		    left: 150px;
+		    top: 40px;
+		    border-radius: 250px;  
+		    border: 50px solid black;
+		}
+
+		.horizontal-stem-top-Ю{
+			background: black;
+			width: 125px;
+			height: 50px;
+			position: absolute;
+			left:0px;
+			top: 50px;
+		}
+
+		.horizontal-stem-bottom-Ю{
+			background: black;
+			width: 125px;
+			height: 50px;
+			position: absolute;
+			left:0px;
+			top: 300px;
+		}
+		
+	/*LETTER Я*/	
+
+		.vertical-stem-Я{
+			background: black;
+			width: 50px;
+			height: 300px;
+			position: absolute;
+			left:180px;
+			top: 50px;
+		}
+
+		.half-circle-Я{
+		    width: 190px;
+		    height: 70px; 
+		    position: absolute;
+		    left: 15px;
+		    top: 50px;
+		    border-top-left-radius: 250px;  
+		    border-bottom-left-radius: 250px; 
+		    border: 50px solid black;
+		    border-right: 0;
+		}
+
+		.diagonal-stem-Я{
+			width:75px;
+			height: 100px; 
+			position: absolute;
+			left: 0px;
+			top: 200px;
+			border-bottom-right-radius: 100px;  
+			border: 50px solid black;
+			border-left: 0;
+			border-top: 0;
+		}
+
+		.horizontal-stem-top-Я{
+			background: black;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left:220px;
+			top: 50px;
+		}
+
+		.horizontal-stem-bottom-Я{
+			background: black;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left:220px;
+			top: 300px;
+		}
+
+.rectangle {
+	background: white;
+	width: 50vw;
+	height: 100%;
+	position: fixed;
+	top: 25vw;
+	left: 0;
+}
+
+.rectangle2 {
+	box-sizing: border-box;
+	background: white;
+	width: 30vw;
+	height: 30vw;
+	position: fixed;
+	left: 60vw;
+	top:100px;
+	padding: 2.5vw;
+	font-size: 2.5vw;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+
+.letter2 {
+	top:1000px;
+	width:400px; 
+    height:400px; 
+    position:relative; 
+    margin: 30px; 
+    color: red;
+    left: 500px;
+
+}
+
+
+
+
+
+
+
